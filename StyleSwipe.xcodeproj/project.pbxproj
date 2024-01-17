@@ -16,6 +16,7 @@
 		1E1181DE2B578E920060EA60 /* StyleSwipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1181DD2B578E920060EA60 /* StyleSwipeTests.swift */; };
 		1E1181E82B578E920060EA60 /* StyleSwipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1181E72B578E920060EA60 /* StyleSwipeUITests.swift */; };
 		1E1181EA2B578E920060EA60 /* StyleSwipeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1181E92B578E920060EA60 /* StyleSwipeUITestsLaunchTests.swift */; };
+		1E1181F72B57B4E90060EA60 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1181F62B57B4E90060EA60 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		1E1181E32B578E920060EA60 /* StyleSwipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StyleSwipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1181E72B578E920060EA60 /* StyleSwipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleSwipeUITests.swift; sourceTree = "<group>"; };
 		1E1181E92B578E920060EA60 /* StyleSwipeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleSwipeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E1181F62B57B4E90060EA60 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		1E1181BB2B578E8D0060EA60 = {
 			isa = PBXGroup;
 			children = (
+				1E1181F62B57B4E90060EA60 /* ImagePicker.swift */,
 				1E1181C62B578E8D0060EA60 /* StyleSwipe */,
 				1E1181DC2B578E920060EA60 /* StyleSwipeTests */,
 				1E1181E62B578E920060EA60 /* StyleSwipeUITests */,
@@ -265,6 +268,7 @@
 			files = (
 				1E1181D42B578E910060EA60 /* StyleSwipe.xcdatamodeld in Sources */,
 				1E1181D12B578E910060EA60 /* Persistence.swift in Sources */,
+				1E1181F72B57B4E90060EA60 /* ImagePicker.swift in Sources */,
 				1E1181CA2B578E8D0060EA60 /* ContentView.swift in Sources */,
 				1E1181C82B578E8D0060EA60 /* StyleSwipeApp.swift in Sources */,
 			);
